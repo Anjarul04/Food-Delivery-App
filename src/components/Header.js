@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <div className="flex justify-between bg-pink-100 shadow-lg sm:bg-yellow-50 lg:bg-green-50 fixed top-0 w-full z-50">
       <div className="logo-container">
-        <img className="w-30" src={logo2} alt="Logo" />
+       <Link to='/'> <img className="w-30" src={logo2} alt="Logo" /> </Link>
       </div>
       <div className="flex items-center">
         <ul className="flex m-4 p-4 [&>li]:hover:text-blue-500 [&>li]:px-3 font-bold [&>li]:font-bold [&>li]:hover:cursor-pointer [&>li]:text-gray-700">

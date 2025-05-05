@@ -13,7 +13,7 @@ const User = (props) => {
       >
         Count Increase
       </button>
-      <h3>Name ; {Name}</h3>
+      <h3>Name : {Name}</h3>
       <h4>Location : {Location}</h4>
       <h4>Contact : @anjarulhaq</h4>
     </div>
