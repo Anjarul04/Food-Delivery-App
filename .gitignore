@@ -1,0 +1,10 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+.parcel-cache/
+
+# Test coverage reports
+coverage/
